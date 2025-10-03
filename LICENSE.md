@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shopee Lê Xuân Hoàng</title>
+  <link rel="stylesheet" href="Shopeedemo_Hoang.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="top-bar">
+      <div class="left">
+        <a href="#">Vào cửa hàng trên ứng dụng LXH-Shop</a> |
+        <a href="#">Kết nối</a>
+        <a href="#"><i class="icon">📘</i></a>
+        <a href="#"><i class="icon">📷</i></a>
+      </div>
+      <div class="right">
+        <a href="#"><i class="icon">🔔</i> Thông báo</a>
+        <a href="#"><i class="icon">❓</i> Trợ giúp</a>
+        <a href="#"><img src="https://via.placeholder.com/20" class="avatar"> Lê Xuân Hoàng</a>
+      </div>
+    </div>
+
+    <div class="main-bar">
+      <div class="logo">
+        <span class="logo-icon">🛍</span>
+        <span class="logo-text">Shopee</span>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Tìm sản phẩm trong Shop này">
+        <select>
+          <option>Trong Shop</option>
+          <option>Tất cả</option>
+        </select>
+        <button>🔍</button>
+      </div>
+      <div class="cart">🛒</div>
+    </div>
+  </header>
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shopee Page Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h3>Danh mục</h3>
+    <ul>
+      <li class="active">Trang điểm mặt</li>
+      <li>Trang điểm môi</li>
+      <li>Trang điểm mắt</li>
+    </ul>
+  </aside>
+
+  <!-- Main content -->
+  <main class="main-content">
+    <!-- Filter -->
+    <div class="filter">
+      <button>Sắp xếp theo</button>
+      <button>Phổ biến</button>
+      <button class="active">Mới nhất</button>
+      <button>Bán chạy</button>
+      <select>
+        <option>Giá</option>
+        <option>Thấp đến cao</option>
+        <option>Cao đến thấp</option>
+      </select>
+      <div class="page-info">1/14</div>
+      <div class="page-nav">
+        <button>&lt;</button>
+        <button>&gt;</button>
+      </div>
+    </div>
+
+    <!-- Product grid -->
+    <div class="product-grid">
+
+      <!-- 1 -->
+      <div class="product-card">
+        <div class="badge love">Yêu thích</div>
+        <div class="badge sale">10% GIẢM</div>
+        <img src="https://via.placeholder.com/200x200" alt="SP1">
+        <h4>Kem lót nâng tông Ohui Makeup Ultimate</h4>
+        <div class="price">
+          <span class="old">1.200.000đ</span>
+          <span class="new">1.000.000đ</span>
+        </div>
+        <div class="info">❤️ 88 đã bán • Whoo • Nhật Bản</div>
+      </div>
+
+      <!-- 2 -->
+      <div class="product-card">
+        <div class="badge love">Yêu thích</div>
+        <div class="badge sale">20% GIẢM</div>
+        <img src="https://via.placeholder.com/200x200" alt="SP2">
+        <h4>Set nước hoa hồng Ohui Miracle Moisture Skin</h4>
+        <div class="price">
+          <span class="old">1.300.000đ</span>
+          <span class="new">1.050.000đ</span>
+        </div>
+        <div class="info">❤️ 850 đã bán • Whoo • Nhật Bản</div>
+      </div>
+
+      <!-- 3 -->
+      <div class="product-card">
+        <div class="badge love">Yêu thích</div>
+        <div class="badge sale">20% GIẢM</div>
+        <img src="https://via.placeholder.com/200x200" alt="SP3">
+        <h4>Set phấn phủ Ohui Ultimate Brightening</h4>
+        <div class="price">
+          <span class="old">1.100.000đ</span>
+          <span class="new">1.000.000đ</span>
+        </div>
+        <div class="info">❤️ 200 đã bán • Whoo • Nhật Bản</div>
+      </div>
+
+      <!-- 4 -->
+      <div class="product-card">
+        <div class="badge love">Yêu thích</div>
+        <div class="badge sale">22% GIẢM</div>
+        <img src="https://via.placeholder.com/200x200" alt="SP4">
+        <h4>Set kem mắt tái sinh Ohui The First Geniture</h4>
+        <div class="price">
+          <span class="old">1.400.000đ</span>
+          <span class="new">1.100.000đ</span>
+        </div>
+        <div class="info">❤️ 99 đã bán • Whoo • Nhật Bản</div>
+      </div>
+
+      <!-- 5 -->
+      <div class="product-card">
+        <div class="badge love">Yêu thích</div>
+        <div class="badge sale">10% GIẢM</div>
+        <img src="https://via.placeholder.com/200x200" alt="SP5">
+        <h4>Set sữa rửa mặt Ohui Prime Gel Cleanser</h4>
+        <div class="price">
+          <span class="old">1.100.000đ</span>
+          <span class="new">1.000.000đ</span>
+        </div>
+        <div class="info">❤️ 243 đã bán • Whoo • Nhật Bản</div>
+      </div>
+
+      <!-- 6 -->
+      <div class="product-card">
+        <div class="badge love">Yêu thích</div>
+        <div class="badge sale">20% GIẢM</div>
+        <img src="https://via.placeholder.com/200x200" alt="SP6">
+        <h4>Set Phấn Nước Whoo GongJinhYang Mi Luxury</h4>
+        <div class="price">
+          <span class="old">1.500.000đ</span>
+          <span class="new">1.200.000đ</span>
+        </div>
+        <div class="info">❤️ 856 đã bán • Whoo • Nhật Bản</div>
+      </div>
+
+      <!-- 7 -->
+      <div class="product-card">
+        <div class="badge love">Yêu thích</div>
+        <div class="badge sale">20% GIẢM</div>
+        <img src="https://via.placeholder.com/200x200" alt="SP7">
+        <h4>Set kem chống nắng Whoo Seol radiant white</h4>
+        <div class="price">
+          <span class="old">1.300.000đ</span>
+          <span class="new">1.200.000đ</span>
+        </div>
+        <div class="info">❤️ 45 đã bán • Whoo • Nhật Bản</div>
+      </div>
+
+      <!-- 8 -->
+      <div class="product-card">
+        <div class="badge love">Yêu thích</div>
+        <div class="badge sale">10% GIẢM</div>
+        <img src="https://via.placeholder.com/200x200" alt="SP8">
+        <h4>Set Son Whoo Luxury Lip Rouge màu môi tinh</h4>
+        <div class="price">
+          <span class="old">1.100.000đ</span>
+          <span class="new">1.000.000đ</span>
+        </div>
+        <div class="info">❤️ 422 đã bán • Whoo • Nhật Bản</div>
+      </div>
+
+      <!-- 9 -->
+      <div class="product-card">
+        <div class="badge love">Yêu thích</div>
+        <div class="badge sale">20% GIẢM</div>
+        <img src="https://via.placeholder.com/200x200" alt="SP9">
+        <h4>Set dưỡng ẩm Whoo hồng Gongjinhyang Soo Vital</h4>
+        <div class="price">
+          <span class="old">1.200.000đ</span>
+          <span class="new">1.100.000đ</span>
+        </div>
+        <div class="info">❤️ 200 đã bán • Whoo • Nhật Bản</div>
+      </div>
+
+      <!-- 10 -->
+      <div class="product-card">
+        <div class="badge love">Yêu thích</div>
+        <div class="badge sale">23% GIẢM</div>
+        <img src="https://via.placeholder.com/200x200" alt="SP10">
+        <h4>Bộ dưỡng trắng da Su:m37 Water-full Radiant 3pcs</h4>
+        <div class="price">
+          <span class="old">1.300.000đ</span>
+          <span class="new">1.000.000đ</span>
+        </div>
+        <div class="info">❤️ 400 đã bán • Whoo • Nhật Bản</div>
+      </div>
+
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <button>&lt;</button>
+      <button class="active">1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+      <span>...</span>
+      <button>14</button>
+      <button>&gt;</button>
+    </div>
+  </main>
+</div>
+<!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Chăm sóc khách hàng</h3>
+        <p>Trung Tâm Trợ Giúp</p>
+        <p>TickID Mall</p>
+        <p>Hướng Dẫn Mua Hàng</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Về TICKID</h3>
+        <p>Giới Thiệu Về TickID Việt Nam</p>
+        <p>Tuyển Dụng</p>
+        <p>Điều Khoản TickID</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Danh mục</h3>
+        <p>Mỹ Phẩm</p>
+        <p>Quần Áo</p>
+        <p>Đồ điện tử</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Theo dõi chúng tôi trên</h3>
+        <p><i class="fab fa-facebook"></i> Facebook</p>
+        <p><i class="fab fa-instagram"></i> Instagram</p>
+        <p><i class="fab fa-linkedin"></i> LinkedIn</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Tải Ứng Dụng Trên Cửa Hàng</h3>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://yourapp.com" alt="QR Code">
+        <p><i class="fa-brands fa-apple"></i> App Store</p>
+        <p><i class="fa-brands fa-google-play"></i> Google Play</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p><b>MAKE BY LE XUAN HOANG</b></p>
+      <p>Email: lexuanhoangaptech@gmail.com</p>
+      <p>Phone: 0386xxxxxxx</p>
+      <p>Address: Cao đẳng Kinh tế Kỹ thuật Công nghiệp</p>
+      <p>@2025-Bản quyền thuộc về Lê Xuân Hoàng</p>
+    </div>
+  </footer>
+</body>
+</html>
