@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shopee Lê Xuân Hoàng</title>
-  <link rel="stylesheet" href="Shopeedemo_Hoang.css">
+  <link rel="stylesheet" href="Shopeedemo_Lam.css">
 </head>
 <body>
   <!-- Header -->
@@ -19,7 +19,7 @@
       <div class="right">
         <a href="#"><i class="icon">🔔</i> Thông báo</a>
         <a href="#"><i class="icon">❓</i> Trợ giúp</a>
-        <a href="#"><img src="https://via.placeholder.com/20" class="avatar"> Lê Xuân Hoàng</a>
+        <a href="#"><img src="https://via.placeholder.com/20" class="avatar"> Tung Lam</a>
       </div>
     </div>
 
@@ -269,11 +269,11 @@
     </div>
 
     <div class="footer-bottom">
-      <p><b>MAKE BY LE XUAN HOANG</b></p>
-      <p>Email: lexuanhoangaptech@gmail.com</p>
+      <p><b>MAKE BY Tung Lam</b></p>
+      <p>Email: lamnvtaptech@gmail.com</p>
       <p>Phone: 0386xxxxxxx</p>
-      <p>Address: Cao đẳng Kinh tế Kỹ thuật Công nghiệp</p>
-      <p>@2025-Bản quyền thuộc về Lê Xuân Hoàng</p>
+      <p>Address: Ha Noi</p>
+      <p>@2025-Bản quyền thuộc về Tung Lam</p>
     </div>
   </footer>
 </body>
